@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="12dp"
+    android:orientation="vertical"
+    android:background="@drawable/layout_bg">
+    
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_margin="15dp"
+        android:paddingTop="30dp">
+        <kankan.wheel.widget.WheelView android:id="@+id/year"
+                                       android:layout_height="wrap_content"
+                                       android:layout_width="90dp"/>
+        <kankan.wheel.widget.WheelView android:id="@+id/month"
+            android:layout_height="wrap_content"
+            android:layout_width="126dp"/>
+        <kankan.wheel.widget.WheelView android:id="@+id/day"
+                                       android:layout_height="wrap_content"
+                                       android:layout_width="60dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_below="@id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="15dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:gravity="center" >
+        <Button android:id="@+id/but_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="18sp"
+                android:text="取消"/>
+        <Button android:id="@+id/but_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="18sp"
+                android:text="选择"/>
+
+    </LinearLayout>
+</RelativeLayout>
