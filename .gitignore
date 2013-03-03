@@ -17,5 +17,7 @@ local.properties
 
 # Eclipse project files
 *.svn
+*.DS_Store
+.idea
 .classpath
 .project

@@ -64,7 +64,7 @@
     <file path="/WheelDemo.java" changelist="6f7f3d6e-2ea1-4807-a4ba-ab7e59a2123a" time="1362293070017" ignored="false" />
     <file path="/main_layout.xml" changelist="6f7f3d6e-2ea1-4807-a4ba-ab7e59a2123a" time="1362292745247" ignored="false" />
     <file path="/TimeActivity.java" changelist="6f7f3d6e-2ea1-4807-a4ba-ab7e59a2123a" time="1362293671281" ignored="false" />
-    <file path="/.gitignore" changelist="6f7f3d6e-2ea1-4807-a4ba-ab7e59a2123a" time="1362294586456" ignored="false" />
+    <file path="/.gitignore" changelist="6f7f3d6e-2ea1-4807-a4ba-ab7e59a2123a" time="1362294743276" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="237" selection-end="237" vertical-scroll-proportion="0.5">
+            <state line="23" column="35" selection-start="254" selection-end="254" vertical-scroll-proportion="0.54761904">
               <folding />
             </state>
           </provider>
@@ -659,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="237" selection-end="237" vertical-scroll-proportion="0.5">
+        <state line="23" column="35" selection-start="254" selection-end="254" vertical-scroll-proportion="0.54761904">
           <folding />
         </state>
       </provider>
